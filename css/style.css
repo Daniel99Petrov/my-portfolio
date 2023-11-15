@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.7em;
+}
+
+#my-name {
+    font-weight: 600;
+    font-style: italic;
+}

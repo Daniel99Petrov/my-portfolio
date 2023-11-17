@@ -33,11 +33,49 @@ img {
 }
 
 .container {
-        max-width: var(--max-width);
-        margin: auto;
-        padding: 0 2rem;
-        overflow: hidden;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
 }
+
+#main-nav {
+    height: 50px;
+    width: 100%;
+    background: var(--light-color);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#main-nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav .logo {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#main-nav .navigation {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#main-nav .navigation i{
+    color: var(--dark-color);
+    margin-right: 40px;
+}
+
+#main-nav .navigation i:hover{
+    color: var(--secondary-color);
+}
+
 
 #showcase {
     padding: 2rem;
@@ -84,5 +122,4 @@ img {
     height: 4px;
     margin-bottom: .6rem;
 }
-
 

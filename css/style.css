@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #3c8a97;
+    --secondary-color: #ef9f54;
+    --third-color: #ce6501;
+    --light-color: #90d4df;
+    --dark-color: #473422;
+    --max-width: 1100px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,9 +16,73 @@
 html, body {
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.7em;
+    background: #fff8f1;
 }
 
-#my-name {
-    font-weight: 600;
-    font-style: italic;
+ul {
+    list-style: none;
 }
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+        max-width: var(--max-width);
+        margin: auto;
+        padding: 0 2rem;
+        overflow: hidden;
+}
+
+#showcase {
+    padding: 2rem;
+    position: relative;
+    color: #fff;
+    background: var(--primary-color);
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#showcase .showcase-content {
+    margin-bottom: .5rem;
+}
+#showcase .showcase-content h1 {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+}
+
+#showcase .showcase-content h6 {
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    word-spacing: 1.3rem;
+}
+
+#showcase .showcase-icons i {
+    padding: .8rem;
+    color: var(--dark-color);
+}
+
+#showcase .showcase-container hr {
+    background: var(--light-color);
+    border: none;
+    width: 100%;
+    height: 4px;
+    margin-bottom: .6rem;
+}
+
+

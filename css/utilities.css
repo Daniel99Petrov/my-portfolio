@@ -1,0 +1,38 @@
+.bg-light {
+    background: #f4f4f4;
+}
+
+.btn {
+    padding: .8rem 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background: var(--third-color);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-dark {
+    background: var(--dark-color);
+}
+
+.btn-light {
+    color: var(--third-color);
+    background: white;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 100px;
+}

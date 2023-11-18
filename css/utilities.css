@@ -1,5 +1,5 @@
 .bg-light {
-    background: #f4f4f4;
+    background: #fff8f1;
 }
 
 .btn {
@@ -26,6 +26,13 @@
     color: var(--third-color);
     background: white;
 }
+
+.p-1 {padding: 1.5rem;}
+.p-2 {padding: 2rem;}
+.p-3 {padding: 3rem;}
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
 
 .content-column {
     display: flex;

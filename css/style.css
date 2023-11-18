@@ -17,7 +17,7 @@
 html, body {
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.7em;
-    background: #fff8f1;
+    background: #f4f4f4;
 }
 
 ul {
@@ -171,6 +171,21 @@ h2 {
 #words-right img{
     height: 100%;
     width:100%
+}
+
+#design .design-container {
+    margin-top: 30px;
+    border-radius: 1rem;
+}
+
+.separation-left {
+    width: 60vw;
+}
+
+.separation-left hr {
+    height: 4px;
+    background: var(--primary-color);
+    border: none;
 }
 
 

@@ -187,19 +187,22 @@ h2 {
 }
 
 #design .design-container,
-#coding .coding-container {
+#coding .coding-container,
+#photography .photography-container {
     margin-top: 30px;
     border-radius: 1rem;
 }
 
 #design .description,
-#coding .description {
+#coding .description,
+#photography .description { 
     align-items: center;
     text-align: center;
 }
 
 #design .description h2,
-#coding .description h2 {
+#coding .description h2,
+#photography .description h2 {
     margin-bottom: 20px
 }
 
@@ -231,11 +234,57 @@ h2 {
 
 #coding .photos-container .photo img {
     height: 100%;
-    width: 100%;
+}
+
+#coding .description .description-link {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#coding .description .description-link:hover {
+    color: var(--third-color);
 }
 
 .photos-container .photo img:hover {
- opacity: 0.8;
+    opacity: 0.8;
+    width: 110%;
+}
+
+#photography .photos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 1rem;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#photography .photos-container .photo {
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow:3px 6px 6px var(--primary-color);
+}
+
+#photography .photos-container .photo-1 img,
+#photography .photos-container .photo-8 img {
+    height: 100%;
+}
+
+#photography .photos-container .photo-6 img,
+#photography .photos-container .photo-9 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#design i,
+#coding i,
+#photography i {
+    background: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 50%;
 }
 
 

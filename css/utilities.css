@@ -12,6 +12,7 @@
     border: none;
     border-radius: 12px;
     text-align: center;
+    box-shadow: 2px 4px 4px black;
 }
 
 .btn:hover{
@@ -42,4 +43,16 @@
     align-items: center;
     text-align: center;
     padding: 50px 100px;
+}
+
+.click-guide {
+    opacity: 0.4;
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+.click-guide:hover {
+    color: var(--third-color);
+    opacity: 1;
 }

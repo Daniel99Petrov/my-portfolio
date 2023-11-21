@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/css/lightbox.min.css" />
     <link rel="stylesheet" href="/css/utilities.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 880px)" href="/css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="/css/tablet.css">
     <script
       src="https://kit.fontawesome.com/f99316a634.js"
       crossorigin="anonymous"
@@ -26,9 +28,9 @@
             <a href="#"> <img src="../images/favicon.png" alt="logo"></a>
           </div>
           <div class="navigation">
-            <a href="#design"><i class="fa-solid fa-pen-nib"></i></a>
-            <a href="#coding"><i class="fa-solid fa-code"></i></a>
-            <a href="#photography"><i class="fa-solid fa-camera"></i></a>
+            <a href="#design"><i class="fa-solid fa-pen-nib design-nav"></i></a>
+            <a href="#coding"><i class="fa-solid fa-code coding-nav"></i></a>
+            <a href="#photography"><i class="fa-solid fa-camera photography-nav"></i></a>
           </div>
       </div>
     </nav>
@@ -89,11 +91,17 @@
             </p>
             <a href="#more-words" class="btn">Read More</a>
           </div>
-          <div class="box" id="words-right">
+          <div id="words-right">
+            <a
+                href="../images/received_898695541715694.jpeg"
+                data-lightbox="my-portrait"
+                data-title="Hello world!"
+              >
               <img
                 src="../images/received_898695541715694.jpeg"
                 alt="Photo of Daniel"
               />
+            </a>
           </div>
         </div>
       </div>
@@ -159,13 +167,31 @@
           </div>
           <div class="photos-container py-2">
             <div class="photo photo-1">
+              <a
+                href="../images/website3.jpg"
+                data-lightbox="website-screen"
+                data-title="Top of the home page of ShareWheels"
+              > 
               <img src="../images/website3.jpg" alt="Design of WelcomeToBg">
+              </a>
             </div>
             <div class="photo photo-2">
+              <a
+                href="../images/website2.jpg"
+                data-lightbox="website-screen"
+                data-title="Look at a Ride page of ShareWheels"
+              > 
               <img src="../images/website2.jpg" alt="Design of WelcomeToBg">
+              </a>
             </div>
             <div class="photo photo-3">
+              <a
+                href="../images/website1.jpg"
+                data-lightbox="website-screen"
+                data-title="Driver portal page of ShareWheels"
+              > 
               <img src="../images/website1.jpg" alt=" WelcomeToBg">
+              </a>
             </div>
           </div>
           <div class="click-guide">

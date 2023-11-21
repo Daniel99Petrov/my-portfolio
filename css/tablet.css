@@ -1,0 +1,52 @@
+html, body {
+    line-height: 1.5rem;
+}
+
+#showcase .showcase-icons {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#showcase .showcase-icons i {
+    padding: 1.5rem;
+}
+
+#quick-words {
+    margin: 2rem 0;
+}
+
+#quick-words .quick-words-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#words-right {
+    height: 200px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#quick-words .content-column {
+    padding: 30px 10px;
+}
+
+
+#words-right img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#words-right::before{
+    display: none;
+}
+
+#photography .photos-container,
+#coding .photos-container,
+#design .photos-container{
+    padding: 0 0 2rem 0;
+}
+
+

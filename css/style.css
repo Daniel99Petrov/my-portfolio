@@ -17,6 +17,7 @@
 html, body {
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.7em;
+    font-size: 16px;
     background: #f4f4f4;
 }
 
@@ -71,11 +72,16 @@ h2 {
 #main-nav .navigation {
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 12px;
 }
 
 #main-nav .navigation i{
     color: var(--dark-color);
+    font-size: 1.5rem;
+}
+
+#main-nav .navigation .design-nav,
+#main-nav .navigation .coding-nav {
     margin-right: 40px;
 }
 
@@ -218,9 +224,11 @@ h2 {
 #design .photos-container,
 #coding .photos-container {
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, 250px);
     justify-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
 }
 
@@ -261,7 +269,7 @@ h2 {
 #photography .photos-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 280px);
-    gap: 1rem;
+    gap: 2rem;
     justify-items: center;
     justify-content: center;
     align-items: center;

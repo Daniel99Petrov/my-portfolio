@@ -56,6 +56,7 @@ h2 {
     top: 0;
     z-index: 10;
     overflow: hidden;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
 }
 
 #main-nav .container {
@@ -127,6 +128,7 @@ h2 {
     font-weight: 100;
     font-size: 10px;
     letter-spacing: .8rem;
+    padding-left: .8rem;
     text-transform: uppercase;
     word-spacing: 1.3rem;
 }
@@ -332,10 +334,20 @@ h2 {
     justify-content: center;
 }
 
+#footer .showcase-icons {
+    display: none;
+}
+
 #footer p{
     font-size: 12px;
     font-weight: 300;
 }
+
+/* @media only screen and (max-width: 301px) {
+    #showcase .showcase-content h6{
+        font-size: 8px;
+    }
+} */
 
 
 

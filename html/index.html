@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/utilities.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" media="screen and (max-width: 880px)" href="/css/tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 500px)" href="/css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="/css/mobile.css">
     <script
       src="https://kit.fontawesome.com/f99316a634.js"
       crossorigin="anonymous"
@@ -25,12 +25,14 @@
     <nav id="main-nav">
       <div class="container">
           <div class="logo">
-            <a href="#"> <img src="../images/favicon.png" alt="logo"></a>
+            <a href="#" class="logo"> 
+              <img src="../images/favicon.png" alt="logo">
+            </a>
           </div>
           <div class="navigation">
-            <a href="#design"><i class="fa-solid fa-pen-nib design-nav"></i></a>
-            <a href="#coding"><i class="fa-solid fa-code coding-nav"></i></a>
-            <a href="#photography"><i class="fa-solid fa-camera photography-nav"></i></a>
+                  <a href="#design"><i class="fa-solid fa-pen-nib design-nav"></i></a>
+                  <a href="#coding"><i class="fa-solid fa-code coding-nav"></i></a>
+                  <a href="#photography"><i class="fa-solid fa-camera photography-nav"></i></a>
           </div>
       </div>
     </nav>
@@ -50,25 +52,21 @@
             </div>
             <hr>
             <div class="showcase-icons">
-                
                 <a
                   href="https://www.facebook.com/dandanDanielPetrov?locale=bg_BG"
                   target="_blank"
                   ><i class="fa-brands fa-facebook"></i
                 ></a>
-
                 <a
                   href="https://www.linkedin.com/in/daniel-petrov-686a29290/?originalSubdomain=bg"
                   target="_blank"
                   ><i class="fa-brands fa-linkedin"></i
                 ></a>
-
                 <a
                   href="https://www.instagram.com/dani_ppetrov/"
                   target="_blank"
                   ><i class="fa-brands fa-square-instagram"></i
                 ></a>
-
                 <a href="https://github.com/Daniel99Petrov" target="_blank"
                   ><i class="fa-brands fa-github"></i
                 ></a>
@@ -84,7 +82,7 @@
             <p>Here are some</p>
             <h2>Quick words</h2>
             <p>
-              Hello, I'm a professional Photographer, Designer and I'm currently
+              Hello, I'm Daniel Petrov and I'm a professional Photographer, Designer and I'm currently
               a Software Engineer Intern at Yara. I work and live in Varna, Bulgaria. My work consists of AD, Event and
               Landscape photos and videos. You could also see Designs and a link
               to my Carpooling Website project.
@@ -353,7 +351,29 @@
     </section>
     <footer id="footer">
       <div class="container">
-          <p>Copyright &copy 2023, All rights reserved</p>       
+        <div class="showcase-icons">
+          <a
+            href="https://www.facebook.com/dandanDanielPetrov?locale=bg_BG"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/daniel-petrov-686a29290/?originalSubdomain=bg"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/dani_ppetrov/"
+            target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://github.com/Daniel99Petrov" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          <p>Copyright &copy 2023, All rights reserved</p>
+        </div>       
       </div>
     </footer>
   </body>
@@ -364,4 +384,5 @@
     crossorigin="anonymous"
   ></script>
   <script src="../js/lightbox.min.js"></script>
+  <script src="../js/navbar.js"></script>
 </html>

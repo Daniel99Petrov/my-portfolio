@@ -4,7 +4,7 @@
     --secondary-color: #ef9f54;
     --third-color: #ce6501;
     --light-color: #90d4df;
-    --dark-color: #473422;
+    --dark-color: rgb(71, 53, 36);
     --max-width: 1100px;
 }
 
@@ -130,6 +130,7 @@ h2 {
     letter-spacing: .8rem;
     padding-left: .6rem;
     text-transform: uppercase;
+    background-color: rgba(71, 53, 36, .6);
     word-spacing: 1.3rem;
     margin-bottom: 1rem;
 }

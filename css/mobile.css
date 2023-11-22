@@ -28,14 +28,6 @@
     display: none;
 }
 
-/* #main-nav .navigation{
-    display: none;
-}
-
-#main-nav .logo {
-    display: none;
-} */
-
 #main-nav.show .logo {
     margin-right: .8rem;
 }

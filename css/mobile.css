@@ -88,17 +88,18 @@
 #footer .showcase-icons i{
     font-size: 1.5rem;
     padding: 10px 20px;
+    color: var(--third-color);
 }
 
-#footer .showcase-icons a:hover{
-    color: var(--secondary-color);
+#footer .showcase-icons i:hover{
+    color: var(--light-color);
 }
 
 #footer .copyright {
     display: flex;
 }
 
-#footer p {
+/* #footer p {
     font-size: 8px;
-}
+} */
 

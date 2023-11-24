@@ -21,7 +21,7 @@ html, body {
 }
 
 #words-right {
-    height: 200px;
+    height: 300px;
     display: flex;
     align-content: center;
     align-items: center;
@@ -35,8 +35,11 @@ html, body {
 
 #words-right img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 4px 8px 8px var(--dark-color);
+    object-fit: cover;
 }
 
 #words-right::before{

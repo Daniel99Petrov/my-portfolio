@@ -170,18 +170,22 @@ h2 {
     position: relative;
 }
 
-#words-right::before{
+/* #words-right::before{
     content: '';
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
     background: rgba(11, 138, 152, 0.6);
-}
+} */
 
 #words-right img{
-    height: 100%;
-    width:100%
+    height: 90%;
+    width:90%;
+    margin-top: 5%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 4px 8px 10px;
 }
 
 .separation-left {
